@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.sayeed.mad">
+
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <!-- <uses-permission android:name="android.permission.CAMERA"/> -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <application
+        android:name="com.sayeed.mad.LockApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/lock22"
+        android:label="@string/app_name"
+        android:manageSpaceActivity="com.sayeed.mad.activities.main.SplashActivity"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <receiver
+            android:name="com.sayeed.mad.receiver.LockRestarterBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="RestartServiceWhenStopped">
+        </receiver>
+
+        <activity
+            android:name="com.sayeed.mad.activities.main.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sayeed.mad.activities.pwd.CreatePwdActivity"
+            android:label="Create Password"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sayeed.mad.activities.lock.GestureSelfUnlockActivity"
+            android:label="Unlock"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sayeed.mad.activities.lock.GestureUnlockActivity"
+            android:excludeFromRecents="true"
+            android:label=""
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/unlock_activity_style"/>
+        <activity
+            android:name="com.sayeed.mad.activities.setting.LockSettingActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sayeed.mad.activities.lock.GestureCreateActivity"
+            android:label="Create a pattern lock"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sayeed.mad.activities.about.AboutMeActivity"
+            android:label="About me"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sayeed.mad.activities.main.MainActivity"
+            android:screenOrientation="portrait"/>
+
+        <service android:name="com.sayeed.mad.services.LoadAppListService"/>
+        <service android:name="com.sayeed.mad.services.LockService"/>
+
+        <receiver android:name="com.sayeed.mad.receiver.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

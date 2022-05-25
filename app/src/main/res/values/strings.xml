@@ -1,0 +1,123 @@
+<resources>
+      
+    <string name="app_name">Smart Protector</string>
+    <string name="lock_first_btn" formatted="false">Protection (% s)</string>
+     
+    <string name="lockscreen_access_pattern_cell_added">Added cell</string>
+        
+    <string name="lockscreen_access_pattern_start">Draw unlock pattern</string>
+        
+    <string name="lockscreen_access_pattern_detected">Pattern has been saved </string>
+        
+    <string name="lockscreen_access_pattern_cleared">Pattern has been deleted </string>
+          
+    <string name="lock_recording_intro_header">Set the App\'s unlock pattern</string>
+        
+    <string name="lock_settings_help_how_to_record">How to draw an unlock pattern</string>
+        
+    <string name="lock_recording_incorrect_too_short">You should connect at least 4 points.</string>
+        
+    <string name="lock_pattern_entered_header">Record pattern</string>
+        
+    <string name="lock_need_to_confirm">Draw the pattern again to confirm</string>
+        
+    <string name="lock_need_to_unlock_wrong">The pattern do not match. Please try again.</string>
+        
+    <string name="password_gestrue_tips">Draw pattern to unlock</string>
+        
+    <string name="password_error_count">The pattern does not match. Please try again.</string>
+        
+    <string name="lock_draw_unlock_pattern">Draw the unlock pattern</string>
+        
+    <string name="lock_enter_pin_code">Enter a numeric password</string>
+        
+    <string name="lock_pattern_confirmed_header">Confirmed Pattern</string>
+     
+        <!--Digital unlock related-->
+        
+    <string name="num_create_text_01">Enter a 4-digit password to unlock</string>
+        
+    <string name="num_create_text_02">Enter again to confirm</string>
+        
+    <string name="num_create_text_03">Password does not match, please try again</string>
+        
+    <string name="number_1">1</string>
+        
+    <string name="number_2">2</string>
+        
+    <string name="number_3">3</string>
+        
+    <string name="number_4">4</string>
+        
+    <string name="number_5">5</string>
+        
+    <string name="number_6">6</string>
+        
+    <string name="number_7">7</string>
+        
+    <string name="number_8">8</string>
+        
+    <string name="number_9">9</string>
+        
+    <string name="number_0">0 </string>
+        
+    <string name="password_short">Please enter at least 4 characters. </string>
+     
+       
+    <string-array name="lock_time_array">
+                
+        <item>15 seconds</item>
+                
+        <item>30 seconds</item>
+                
+        <item>1 minute</item>
+                
+        <item>3 minutes</item>
+                
+        <item>5 minutes</item>
+                
+        <item>10 minutes</item>
+                
+        <item>30 minutes</item>
+                
+        <item>Immediately </item>
+            
+    </string-array>
+     
+        
+    <string name="dialog_tip"> Your Android version is greater than or equal Android 5.0, Smart Protector need to get the \"Application Usage\" permission
+    </string>
+    <string name="sayeed">Sayeed Hossain</string>
+    <string name="github_profile">Website URL: https://www.sayeedhossain.com/ \n\nGitHub: https://github.com/sayeedhossain/ \n\nHackerRank: https://www.hackerrank.com/sayeed_hossain</string>
+    <string name="upstream_developer">Upstream Developer</string>
+    <string name="up_stream_deve_name_espoir">Espoir</string>
+
+    <string name="welcome_to_the_app_lock">Welcome to the Smart Protector</string>
+    <string name="reset">Reset</string>
+    <string name="create_pattern">Create pattern</string>
+    <string name="please_draw_your_pattern">Please draw your pattern</string>
+    <string name="identity_confirmation">Identity confirmation</string>
+    <string name="search_application">Search Apps</string>
+    <string name="settings">Settings</string>
+    <string name="lock_settings">Lock Settings</string>
+    <string name="lock_immediately_after_locking_the_screen">Lock app immediately locking the phone (Working)</string>
+    <string name="open">Open</string>
+    <string name="change_the_password">Change the pattern</string>
+    <string name="show_pattern">Show pattern</string>
+    <string name="hide_pattern">Hide pattern</string>
+    <string name="about_me">About Dev.</string>
+    <string name="go_to_give_permission">Permit Permission</string>
+    <string name="warning">Warning</string>
+    <string name="search_applications">Search Apps&#8230;</string>
+    <string name="search_for">Search For&#8230;</string>
+    <string name="take_a_photo">Intruder selfie(working)</string>
+    <string name="_1_minute">1 minute</string>
+    <string name="apps">Apps</string>
+    <string name="accessibility_service_description">This permission is only used for locking the apps</string>
+    <string name="accessibility_service_name">Smart Protector</string>
+    <string name="lock_type">Lock Type</string>
+    <string name="pattern_is_required">Pattern is required when the Locked Apps are opened</string>
+    <string name="pattern_is_not_required">Pattern is not required when the Locked Apps opened</string>
+    <string name="intruder_selfie">Intruder Selfie(Working)</string>
+    <string name="vibrate">Vibration(working)</string>
+</resources>

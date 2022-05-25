@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@+id/switch_compat"
+        android:layout_toRightOf="@+id/app_icon"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:layout_toStartOf="@+id/switch_compat"
+        android:layout_toEndOf="@+id/app_icon"
+        android:paddingStart="10dp"/>
+
+    <CheckBox
+        android:id="@+id/switch_compat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="12dp"
+        android:button="@drawable/bg_checkbox_lock"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="70dp"
+        android:background="@color/line_color"
+        android:layout_marginStart="70dp"/>
+</RelativeLayout>

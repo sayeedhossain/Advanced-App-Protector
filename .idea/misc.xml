@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../../layout/custom_preview.xml" value="0.290625" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/bg_black_click.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/bg_btn_blue.xml" value="0.125" />
+        <entry key="app/src/main/res/drawable/bg_checkbox_lock.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_about_me.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_create_pwd.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_gesture_lock.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/layout/activity_gesture_self_unlock.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/layout/activity_gesture_unlock.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/layout/activity_lock_main.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.24954710144927536" />
+        <entry key="app/src/main/res/layout/activity_setting.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_lock_select_time.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/layout/dialog_permission.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/dialog_search.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_app_list.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/layout/fragment_camera2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_lock_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_lock_select_time.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/item_lock_top.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/item_main_list.xml" value="0.17708333333333334" />
+        <entry key="app/src/main/res/layout/layout_toolbar.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/layout/layout_toolbar_title.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/layout/pop_unlock_menu.xml" value="0.1276595744680851" />
+        <entry key="app/src/main/res/menu/menu_create_pwd.xml" value="0.26614583333333336" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="crashreporter/src/main/res/layout/activity_log_message.xml" value="0.1276595744680851" />
+        <entry key="crashreporter/src/main/res/layout/crash_log.xml" value="0.1" />
+        <entry key="crashreporter/src/main/res/layout/crash_reporter_activity.xml" value="0.17708333333333334" />
+        <entry key="crashreporter/src/main/res/layout/custom_item.xml" value="0.17708333333333334" />
+        <entry key="crashreporter/src/main/res/layout/exception_log.xml" value="0.17708333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
